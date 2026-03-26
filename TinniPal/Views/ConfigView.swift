@@ -121,7 +121,7 @@ struct ConfigView: View {
                     }
                     .disabled(!viewModel.isAnySoundPlaying)
                 } label: {
-                    Image(systemName: "ellipsis.circle")
+                    Image(systemName: "ellipsis")
                 }
                 
             }

@@ -3,74 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		E6CAB0842BB67B50001CAD02 /* TinniPalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0832BB67B50001CAD02 /* TinniPalApp.swift */; };
-		E6CAB0882BB67B52001CAD02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0872BB67B52001CAD02 /* Assets.xcassets */; };
-		E6CAB08B2BB67B52001CAD02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB08A2BB67B52001CAD02 /* Preview Assets.xcassets */; };
-		E6CAB0972BB688E2001CAD02 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0962BB688E2001CAD02 /* Sound.swift */; };
-		E6CAB0992BB68923001CAD02 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0982BB68923001CAD02 /* SoundManager.swift */; };
-		E6CAB09C2BB6892B001CAD02 /* SoundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB09A2BB6892B001CAD02 /* SoundsViewModel.swift */; };
-		E6CAB09D2BB6892B001CAD02 /* ConfigViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB09B2BB6892B001CAD02 /* ConfigViewModel.swift */; };
-		E6CAB0A32BB68935001CAD02 /* SoundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB09E2BB68935001CAD02 /* SoundsView.swift */; };
-		E6CAB0A42BB68935001CAD02 /* TimerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB09F2BB68935001CAD02 /* TimerPickerView.swift */; };
-		E6CAB0A52BB68935001CAD02 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0A02BB68935001CAD02 /* InfoView.swift */; };
-		E6CAB0A62BB68935001CAD02 /* ConfigView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0A12BB68935001CAD02 /* ConfigView.swift */; };
-		E6CAB0A72BB68935001CAD02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6CAB0A22BB68935001CAD02 /* ContentView.swift */; };
-		E6CAB0BA2BB6899E001CAD02 /* Owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0A92BB6899E001CAD02 /* Owl.mp3 */; };
-		E6CAB0BB2BB6899E001CAD02 /* Water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AA2BB6899E001CAD02 /* Water.mp3 */; };
-		E6CAB0BC2BB6899E001CAD02 /* Zen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AB2BB6899E001CAD02 /* Zen.mp3 */; };
-		E6CAB0BD2BB6899E001CAD02 /* Squirrel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AC2BB6899E001CAD02 /* Squirrel.mp3 */; };
-		E6CAB0BE2BB6899E001CAD02 /* Frogs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AD2BB6899E001CAD02 /* Frogs.mp3 */; };
-		E6CAB0BF2BB6899E001CAD02 /* Fire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AE2BB6899E001CAD02 /* Fire.mp3 */; };
-		E6CAB0C02BB6899E001CAD02 /* Moment.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0AF2BB6899E001CAD02 /* Moment.mp3 */; };
-		E6CAB0C12BB6899E001CAD02 /* Leaves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B02BB6899E001CAD02 /* Leaves.mp3 */; };
-		E6CAB0C22BB6899E001CAD02 /* Birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B12BB6899E001CAD02 /* Birds.mp3 */; };
-		E6CAB0C32BB6899E001CAD02 /* Rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B22BB6899E001CAD02 /* Rain.mp3 */; };
-		E6CAB0C42BB6899E001CAD02 /* Waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B32BB6899E001CAD02 /* Waves.mp3 */; };
-		E6CAB0C52BB6899E001CAD02 /* Calm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B42BB6899E001CAD02 /* Calm.mp3 */; };
-		E6CAB0C62BB6899E001CAD02 /* Cricket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B52BB6899E001CAD02 /* Cricket.mp3 */; };
-		E6CAB0C72BB6899E001CAD02 /* Wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B62BB6899E001CAD02 /* Wind.mp3 */; };
-		E6CAB0C82BB6899E001CAD02 /* Jungle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B72BB6899E001CAD02 /* Jungle.mp3 */; };
-		E6CAB0C92BB6899E001CAD02 /* Cicadas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B82BB6899E001CAD02 /* Cicadas.mp3 */; };
-		E6CAB0CA2BB6899E001CAD02 /* Thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E6CAB0B92BB6899E001CAD02 /* Thunder.mp3 */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E6CAB0802BB67B50001CAD02 /* TinniPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinniPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6CAB0832BB67B50001CAD02 /* TinniPalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinniPalApp.swift; sourceTree = "<group>"; };
-		E6CAB0872BB67B52001CAD02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E6CAB08A2BB67B52001CAD02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E6CAB0962BB688E2001CAD02 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
-		E6CAB0982BB68923001CAD02 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
-		E6CAB09A2BB6892B001CAD02 /* SoundsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsViewModel.swift; sourceTree = "<group>"; };
-		E6CAB09B2BB6892B001CAD02 /* ConfigViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigViewModel.swift; sourceTree = "<group>"; };
-		E6CAB09E2BB68935001CAD02 /* SoundsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundsView.swift; sourceTree = "<group>"; };
-		E6CAB09F2BB68935001CAD02 /* TimerPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerPickerView.swift; sourceTree = "<group>"; };
-		E6CAB0A02BB68935001CAD02 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
-		E6CAB0A12BB68935001CAD02 /* ConfigView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigView.swift; sourceTree = "<group>"; };
-		E6CAB0A22BB68935001CAD02 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E6CAB0A92BB6899E001CAD02 /* Owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Owl.mp3; sourceTree = "<group>"; };
-		E6CAB0AA2BB6899E001CAD02 /* Water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Water.mp3; sourceTree = "<group>"; };
-		E6CAB0AB2BB6899E001CAD02 /* Zen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Zen.mp3; sourceTree = "<group>"; };
-		E6CAB0AC2BB6899E001CAD02 /* Squirrel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Squirrel.mp3; sourceTree = "<group>"; };
-		E6CAB0AD2BB6899E001CAD02 /* Frogs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Frogs.mp3; sourceTree = "<group>"; };
-		E6CAB0AE2BB6899E001CAD02 /* Fire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fire.mp3; sourceTree = "<group>"; };
-		E6CAB0AF2BB6899E001CAD02 /* Moment.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Moment.mp3; sourceTree = "<group>"; };
-		E6CAB0B02BB6899E001CAD02 /* Leaves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Leaves.mp3; sourceTree = "<group>"; };
-		E6CAB0B12BB6899E001CAD02 /* Birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Birds.mp3; sourceTree = "<group>"; };
-		E6CAB0B22BB6899E001CAD02 /* Rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rain.mp3; sourceTree = "<group>"; };
-		E6CAB0B32BB6899E001CAD02 /* Waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Waves.mp3; sourceTree = "<group>"; };
-		E6CAB0B42BB6899E001CAD02 /* Calm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Calm.mp3; sourceTree = "<group>"; };
-		E6CAB0B52BB6899E001CAD02 /* Cricket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cricket.mp3; sourceTree = "<group>"; };
-		E6CAB0B62BB6899E001CAD02 /* Wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wind.mp3; sourceTree = "<group>"; };
-		E6CAB0B72BB6899E001CAD02 /* Jungle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jungle.mp3; sourceTree = "<group>"; };
-		E6CAB0B82BB6899E001CAD02 /* Cicadas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cicadas.mp3; sourceTree = "<group>"; };
-		E6CAB0B92BB6899E001CAD02 /* Thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Thunder.mp3; sourceTree = "<group>"; };
-		E6CAB0CB2BB68A92001CAD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CFC6C4B22F74DD5D005B21FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Supporting Files/Info.plist",
+			);
+			target = E6CAB07F2BB67B50001CAD02 /* TinniPal */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CFC6C4922F74DD5D005B21FD /* TinniPal */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CFC6C4B22F74DD5D005B21FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = TinniPal; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E6CAB07D2BB67B50001CAD02 /* Frameworks */ = {
@@ -86,7 +38,7 @@
 		E6CAB0772BB67B50001CAD02 = {
 			isa = PBXGroup;
 			children = (
-				E6CAB0822BB67B50001CAD02 /* TinniPal */,
+				CFC6C4922F74DD5D005B21FD /* TinniPal */,
 				E6CAB0812BB67B50001CAD02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,107 +49,6 @@
 				E6CAB0802BB67B50001CAD02 /* TinniPal.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E6CAB0822BB67B50001CAD02 /* TinniPal */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0952BB688C2001CAD02 /* App */,
-				E6CAB0942BB688BC001CAD02 /* Models */,
-				E6CAB0932BB688B7001CAD02 /* Utils */,
-				E6CAB0922BB688A9001CAD02 /* ViewModels */,
-				E6CAB0912BB688A2001CAD02 /* Views */,
-				E6CAB0CC2BB96F4F001CAD02 /* Supporting Files */,
-				E6CAB0892BB67B52001CAD02 /* Preview Content */,
-			);
-			path = TinniPal;
-			sourceTree = "<group>";
-		};
-		E6CAB0892BB67B52001CAD02 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB08A2BB67B52001CAD02 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E6CAB0912BB688A2001CAD02 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0A12BB68935001CAD02 /* ConfigView.swift */,
-				E6CAB0A22BB68935001CAD02 /* ContentView.swift */,
-				E6CAB0A02BB68935001CAD02 /* InfoView.swift */,
-				E6CAB09E2BB68935001CAD02 /* SoundsView.swift */,
-				E6CAB09F2BB68935001CAD02 /* TimerPickerView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E6CAB0922BB688A9001CAD02 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB09B2BB6892B001CAD02 /* ConfigViewModel.swift */,
-				E6CAB09A2BB6892B001CAD02 /* SoundsViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		E6CAB0932BB688B7001CAD02 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0982BB68923001CAD02 /* SoundManager.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		E6CAB0942BB688BC001CAD02 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0962BB688E2001CAD02 /* Sound.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		E6CAB0952BB688C2001CAD02 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0832BB67B50001CAD02 /* TinniPalApp.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		E6CAB0A82BB6898D001CAD02 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0B12BB6899E001CAD02 /* Birds.mp3 */,
-				E6CAB0B42BB6899E001CAD02 /* Calm.mp3 */,
-				E6CAB0B82BB6899E001CAD02 /* Cicadas.mp3 */,
-				E6CAB0B52BB6899E001CAD02 /* Cricket.mp3 */,
-				E6CAB0AE2BB6899E001CAD02 /* Fire.mp3 */,
-				E6CAB0AD2BB6899E001CAD02 /* Frogs.mp3 */,
-				E6CAB0B72BB6899E001CAD02 /* Jungle.mp3 */,
-				E6CAB0B02BB6899E001CAD02 /* Leaves.mp3 */,
-				E6CAB0AF2BB6899E001CAD02 /* Moment.mp3 */,
-				E6CAB0A92BB6899E001CAD02 /* Owl.mp3 */,
-				E6CAB0B22BB6899E001CAD02 /* Rain.mp3 */,
-				E6CAB0AC2BB6899E001CAD02 /* Squirrel.mp3 */,
-				E6CAB0B92BB6899E001CAD02 /* Thunder.mp3 */,
-				E6CAB0AA2BB6899E001CAD02 /* Water.mp3 */,
-				E6CAB0B32BB6899E001CAD02 /* Waves.mp3 */,
-				E6CAB0B62BB6899E001CAD02 /* Wind.mp3 */,
-				E6CAB0AB2BB6899E001CAD02 /* Zen.mp3 */,
-			);
-			path = Sounds;
-			sourceTree = "<group>";
-		};
-		E6CAB0CC2BB96F4F001CAD02 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E6CAB0CB2BB68A92001CAD02 /* Info.plist */,
-				E6CAB0A82BB6898D001CAD02 /* Sounds */,
-				E6CAB0872BB67B52001CAD02 /* Assets.xcassets */,
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +65,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CFC6C4922F74DD5D005B21FD /* TinniPal */,
 			);
 			name = TinniPal;
 			productName = TinniPal;
@@ -258,25 +112,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CAB0CA2BB6899E001CAD02 /* Thunder.mp3 in Resources */,
-				E6CAB0C42BB6899E001CAD02 /* Waves.mp3 in Resources */,
-				E6CAB0C32BB6899E001CAD02 /* Rain.mp3 in Resources */,
-				E6CAB0C12BB6899E001CAD02 /* Leaves.mp3 in Resources */,
-				E6CAB0BA2BB6899E001CAD02 /* Owl.mp3 in Resources */,
-				E6CAB0BD2BB6899E001CAD02 /* Squirrel.mp3 in Resources */,
-				E6CAB08B2BB67B52001CAD02 /* Preview Assets.xcassets in Resources */,
-				E6CAB0BB2BB6899E001CAD02 /* Water.mp3 in Resources */,
-				E6CAB0BF2BB6899E001CAD02 /* Fire.mp3 in Resources */,
-				E6CAB0C72BB6899E001CAD02 /* Wind.mp3 in Resources */,
-				E6CAB0882BB67B52001CAD02 /* Assets.xcassets in Resources */,
-				E6CAB0C22BB6899E001CAD02 /* Birds.mp3 in Resources */,
-				E6CAB0C92BB6899E001CAD02 /* Cicadas.mp3 in Resources */,
-				E6CAB0C82BB6899E001CAD02 /* Jungle.mp3 in Resources */,
-				E6CAB0BE2BB6899E001CAD02 /* Frogs.mp3 in Resources */,
-				E6CAB0BC2BB6899E001CAD02 /* Zen.mp3 in Resources */,
-				E6CAB0C02BB6899E001CAD02 /* Moment.mp3 in Resources */,
-				E6CAB0C52BB6899E001CAD02 /* Calm.mp3 in Resources */,
-				E6CAB0C62BB6899E001CAD02 /* Cricket.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,16 +122,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6CAB0A52BB68935001CAD02 /* InfoView.swift in Sources */,
-				E6CAB09C2BB6892B001CAD02 /* SoundsViewModel.swift in Sources */,
-				E6CAB09D2BB6892B001CAD02 /* ConfigViewModel.swift in Sources */,
-				E6CAB0A62BB68935001CAD02 /* ConfigView.swift in Sources */,
-				E6CAB0972BB688E2001CAD02 /* Sound.swift in Sources */,
-				E6CAB0842BB67B50001CAD02 /* TinniPalApp.swift in Sources */,
-				E6CAB0A72BB68935001CAD02 /* ContentView.swift in Sources */,
-				E6CAB0A32BB68935001CAD02 /* SoundsView.swift in Sources */,
-				E6CAB0992BB68923001CAD02 /* SoundManager.swift in Sources */,
-				E6CAB0A42BB68935001CAD02 /* TimerPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +271,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferry.TinniPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -479,7 +304,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ferry.TinniPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
